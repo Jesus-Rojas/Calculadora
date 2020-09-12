@@ -1,0 +1,79 @@
+/* diseño para todos los input */
+input{
+    width: 38px;
+    height: 38px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: x-large;
+    color: white;
+    background-color: darkgray;
+}
+/* diseño para las clases long */
+.long{
+    width: 3.3em;
+}
+/* diseño para todos los div */
+div{
+    text-align: center;
+    margin: 0;
+}
+/* diseño para las clases input-2 */
+.input-2{
+    width: 6.7em;
+    height: 1.4em;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: black;
+    border-color: black;
+}
+/* diseño para las clases calculadora */
+.calculadora{
+    align-content: center;
+    width: 180px;
+    height: 265px;
+    background-color: black;
+    padding-top: 1em;
+    margin: 0;
+    border-radius: 1.2em;
+}
+/* diseño para el body */
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+/* este diseño se activa cuando paso el mouse sobre todos los input */
+input:hover{
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+}
+/* diseño para las clases operadores */
+.operadores{
+    background-color: rgba(7, 7, 7, 0.884);
+    border-color: rgba(7, 7, 7, 0.884);
+}
+/* este diseño se activa cuando paso el mouse a las clases input-2 */
+.input-2:hover{
+    background-color: black;
+    border-color: black;
+}
+/* diseño para las clases espacio */
+.espacio{
+    background-color: rgba(7, 7, 7, 0.884);
+    border-color: rgba(7, 7, 7, 0.884);
+    color: white;
+    width: 7.6em;
+    height: 38px;
+    margin-right: 4px;
+}
+/* diseño para las clases m */
+.m{
+    height: 0.5em;
+}
+/* diseño para las clases row */
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="js/calculadora.js"></script>
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+<body>
+<div class="calculadora">
+    <div>
+        <!-- creamos una caja de texto para que se vean los datos ingresados por boton -->
+        <input type="text" class="input-2" id="resultado" readonly>
+    </div>
+    <div class="row">
+        <div class="espacio">
+            <div class="m"></div>
+            <div>V.Beta</div>
+        </div>
+        <div><input type="button" value="C" class="operadores" onclick="EliminarTodoFronted()"></div>
+    </div>
+    <!-- creamos los botones para verlos en pantalla, el value nos muestra en el html lo que vale, onclick nos sirve para llamar metodos del archivo js.-->
+    <div>
+        <input type="button" value="7" onclick="Parametros(value)">
+        <input type="button" value="8" onclick="Parametros(value)">
+        <input type="button" value="9" onclick="Parametros(value)">
+        <input type="button" value="+" class="operadores" onclick="Parametros(value)">
+    </div>
+    <div>
+        <input type="button" value="4" onclick="Parametros(value)">
+        <input type="button" value="5" onclick="Parametros(value)">
+        <input type="button" value="6" onclick="Parametros(value)">
+        <input type="button" value="-" class="operadores" onclick="Parametros(value)">
+    </div>
+    <div>
+        <input type="button" value="1" onclick="Parametros(value)">
+        <input type="button" value="2" onclick="Parametros(value)">
+        <input type="button" value="3" onclick="Parametros(value)">
+        <input type="button" value="x" class="operadores" onclick="Parametros('*')">
+    </div>
+    <div>
+        <input type="button" value="0" onclick="Parametros(value)">
+        <input type="button" value="=" class="operadores long" onclick="Parametros(value)">
+        <input type="button" value="/" class="operadores" onclick="Parametros(value)">
+    </div>
+</div>
+</body>
+</html>
