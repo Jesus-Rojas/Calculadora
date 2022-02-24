@@ -1,1 +1,0 @@
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jesus-rojas&repo=Calculadora&theme=highcontrast&hide_border=true)](https://github.com/jesus-rojas/Calculadora)
