@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <script src="js/calculadora.js"></script>
+    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="css/calculadora.css">
+    <script src="js/calculadora.js"></script>
 </head>
 <body>
 <div class="calculadora">
@@ -47,7 +48,7 @@
 </div>
 <script>
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('https://jesus-rojas.github.io/Calculadora/js/sw.js')
+        navigator.serviceWorker.register('./js/sw.js')
     }
 </script>
 </body>
