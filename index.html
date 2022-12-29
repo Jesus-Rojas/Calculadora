@@ -45,5 +45,10 @@
         <input type="button" value="/" class="operadores" onclick="Parametros(value)">
     </div>
 </div>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./js/sw.js')
+    }
+</script>
 </body>
 </html>
